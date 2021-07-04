@@ -89,3 +89,7 @@ body{
     width: 83%;
     height: 5vh;
 }
+fieldset{
+    width: 40%;
+    border-radius: 40px;
+}
