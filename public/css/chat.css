@@ -1,0 +1,91 @@
+/* --------------Chat------------- */
+body{
+    background-image: url(../image/cover.jpg);
+    background-size: cover;
+    color: white;
+    font-family: serif;
+}
+.container2{
+    margin: auto;
+    margin-top: 10%;
+    width: 45%;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 15% 85% 15%;
+}
+.container{
+    margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-rows: 15% 85% 15%;
+}
+.header{
+    color: white;
+    background: rgb(197, 11, 11);
+    display: grid;
+    grid-template-columns: 6% 35% 48% 9%;
+    height: 10vh;
+}
+.active{
+    margin: 5px;
+    margin-top: 4px;
+    height: 10px;
+    width: 10px;
+    background: green;
+    border-radius: 50%;  
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.namegroup{
+    font-weight: bold;
+    font-size: 20px;
+}
+.leave{
+    height: 6vh;
+    margin-top: 20%;
+}
+.communication{
+    background-size: cover;
+    background-image: url(../image/chat.jpg);
+}
+.chatmessage{
+    margin-left: 1%;
+}
+.bord{
+    background: blue; 
+    height: 9vh;
+    
+}
+.startbord{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 50% 10% 10%;
+}
+.emoji,.bold,.italic,.send{
+    height: 5vh;
+}
+.emoji{
+    margin-left: 15%;
+    width: 80%;
+}
+.bold{
+    width: 60%;
+    font-weight: bold;
+    margin-left: 20%;
+}
+.italic{
+    width: 60%;
+    font-style: italic;
+    font-weight: bold;
+}
+.writemessage{
+    height: 5vh;
+    width: 95%;
+}
+.send{
+    margin-left: 10%;
+}
+#update_message{
+    width: 83%;
+    height: 5vh;
+}

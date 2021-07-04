@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveAlarm</title>
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/chat.js" defer></script>
+    <script src="js/login.js" defer></script>
+</head>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="active"></div>
+            <h3>Online</h3>
+            <p class="namegroup">Web 2021 Students</p>
+            <button class="leave">Leave</button>
+        </div>
+
+        <div class="communication">
+            <div class="chatmessage">
+                <fieldset>
+
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="bord">
+            <div class="startbord">
+                <div>
+                    <button class="emoji">emoji</button>
+                </div>
+                <div>
+                    <button class="bold">B</button>
+                </div>
+                <div>  
+                    <button class="italic">I</button>
+                </div>
+                <div>
+                    <input type="text" class="writemessage" placeholder="Type your message here">
+                </div>
+                <div>
+                   <button class="send">send</button>
+                </div>
+                <div>
+                    <button id = "update_message">update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id=myAudio>
+        <source src="sound.mp3" type="audio/ogg">
+    </audio>
+</body>
+</html>
