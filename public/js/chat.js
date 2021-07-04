@@ -191,12 +191,6 @@ const textItalic = document.querySelector(".italic");
 textItalic.addEventListener("click", covertToItalic);
 //Redfresh
 setInterval(loadData,3000);
-//Log out
-// function signout(){
-//     window.location.href='../index.html';
-// }
-// let logOut=document.querySelector('.leave');
-// logOut.addEventListener('click',signout);
 
-// setInterval(loadData,500);
+
 
