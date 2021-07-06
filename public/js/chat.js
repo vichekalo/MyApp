@@ -1,3 +1,4 @@
+
 //------Send Message-----
 function displayUser(response){
     let users = response.data;
@@ -79,6 +80,7 @@ function displayUser(response){
     bold='';
     italic='';
 }
+
 // ----create empty object for store all value
 
 let User={};
